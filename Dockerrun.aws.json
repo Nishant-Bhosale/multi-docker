@@ -1,5 +1,5 @@
 {
-  "AWSEBDockerrunVersion": 2,
+  "AWSEBDockerrunVersion": "2",
   "containerDefinitions": [
     {
       "name": "client",
@@ -8,7 +8,6 @@
       "essential": false,
       "memory": 128
     },
-
     {
       "name": "server",
       "image": "nishantbhosale3/multi-server",
